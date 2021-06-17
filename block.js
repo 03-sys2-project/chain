@@ -15,11 +15,14 @@ class Block{
             Timestamp: ${this.timestamp}
             Last Hash: ${this.lastHash.substring(0,10)}
             Hash:      ${this.hash.substring(0,10)}
-            Data:      ${this.data}
-            `;
-
-
+            Data:      ${this.data}`;
     }
+
+    static genesis(){
+        return new this("Genesis time", "------","abc1234",[]);
+    }
+
+
 
 } // EoC
 
