@@ -10,6 +10,16 @@ class Block{
         this.data = data;
     }
 
+    toString(){ // für Debugging-Zwecke, Inhalt des Obj.
+        return ` Block -
+            Timestamp: ${this.timestamp}
+            Last Hash: ${this.lastHash.substring(0,10)}
+            Hash:      ${this.hash.substring(0,10)}
+            Data:      ${this.data}
+            `;
+
+
+    }
 
 
 
