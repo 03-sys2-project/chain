@@ -21,8 +21,7 @@ class Block{
 
     }
 
+} // EoC
 
+module.exports = Block; // Export als Modul
 
-
-
-}
