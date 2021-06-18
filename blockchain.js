@@ -7,6 +7,11 @@ class Blockchain{
         this.chain = [Block.genesis()];  // Am Anfang war ...
     }
 
+    addBlock(){
+        const block = "testBlock";
+        this.chain.push(block);
+        return block;
+    }
 
 
 
