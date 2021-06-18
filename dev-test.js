@@ -14,7 +14,15 @@ const blockchain =  new Blockchain();
 console.log(blockchain);
 
 // + 2. Block
-blockchain.addBlock();
+blockchain.addBlock("100 € an boo, 50 $ von foo ");
+console.log(blockchain);
+
+// + 3. Block
+blockchain.addBlock("8 € von boo an baz");
+console.log(blockchain);
+
+// + 4. Block
+blockchain.addBlock("Bank an Kasse 200");
 console.log(blockchain);
 
 
